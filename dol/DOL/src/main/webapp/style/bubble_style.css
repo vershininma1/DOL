@@ -1,0 +1,23 @@
+.speech-bubble {
+    position: relative;
+    background: #ddddff;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 13px solid transparent;
+    border-top-color: #ddddff;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -6.5px;
+    margin-bottom: -13px;
+}
+.hidden_div {
+    display:none;
+}

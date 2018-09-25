@@ -1,0 +1,9 @@
+1.Установить Postgresql
+2.Установить glassfish, настроить в консоли администратора jdbs connection pool  для базы данных "dolbase". 
+3.Создать jdbs resource с именем "jdbc/dolbase"
+3.Положить jdbc драйвер для postgresql в glassfish\domains\"имя домена"\lib\ext
+3.Запустить sql-скрипт
+4.Запустить проект: в панели администратора glassfish  нажать applications->deploy.Выбрать файл DOL\target\DOL-1.0.war.Нажать ОК. Дождаться завершения загрузки и нажать launch.
+
+
+логины: Max Max1        Ivan Ivan1
